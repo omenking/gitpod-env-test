@@ -1,0 +1,9 @@
+tasks:
+  - name: HTTP-Server
+    env:
+      PUBLIC_DIR: "/workspace/my-app/build"
+    init: npm install http-server
+    command: http-server $PUBLIC_DIR
+  - name: Echo
+    command: echo "Testing"
+  
