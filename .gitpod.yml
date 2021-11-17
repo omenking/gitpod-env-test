@@ -6,4 +6,11 @@ tasks:
     command: http-server $PUBLIC_DIR
   - name: Echo
     command: echo "Testing"
-  
+  - name: Pipe-Multiline
+    init: |
+      echo "Hello"
+      echo "World"
+  - name: Angle-Multiline
+    init: > 
+      echo "Hello" &&
+      echo "World"
