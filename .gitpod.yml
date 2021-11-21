@@ -1,21 +1,29 @@
 tasks:
-  - name: "Terminal 1"
-    command: echo 'Terminal 1'
-  - name: "Terminal 2"
-    command: echo 'Terminal 2'
+  - name: "Default1"
+    command: echo 'Default1'
+  - name: "TabBefore1"
+    command: echo 'TabBefore1'
     openMode: tab-before
-  - name: "Terminal 3"
-    command: echo 'Terminal 3'
+  - name: "TabAfter1"
+    command: echo 'TabAfter1'
     openMode: tab-after
-  - name: "Terminal 4"
-    command: echo 'Terminal 4'
+  - name: "SplitRight1"
+    command: echo 'SplitRight1'
     openMode: split-right
-  - name: "Terminal 5"
-    command: echo 'Terminal 5'
-    openMode: split-left
-  - name: "Terminal 6"
-    command: echo 'Terminal 6'
-    openMode: split-left
-  - name: "Terminal 7"
-    command: echo 'Terminal 7'
+  - name: "TabAfter2"
+    command: echo 'TabAfter2'
     openMode: tab-after
+  - name: "TabBefore2"
+    command: echo 'TabBefore2'
+    openMode: tab-before
+  - name: "Default2"
+    command: echo 'Default2'
+  - name: "SplitLeft1"
+    command: echo 'SplitLeft1'
+    openMode: split-left
+  - name: "SplitLeft2"
+    command: echo 'SplitLeft2'
+    openMode: split-left
+  - name: "SplitRight2"
+    command: echo 'SplitRight2'
+    openMode: split-right
