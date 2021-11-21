@@ -4,3 +4,18 @@ tasks:
   - name: "Terminal 2"
     command: echo 'Terminal 2'
     openMode: tab-before
+  - name: "Terminal 3"
+    command: echo 'Terminal 3'
+    openMode: tab-after
+  - name: "Terminal 4"
+    command: echo 'Terminal 4'
+    openMode: split-right
+  - name: "Terminal 5"
+    command: echo 'Terminal 5'
+    openMode: split-left
+  - name: "Terminal 6"
+    command: echo 'Terminal 6'
+    openMode: split-left
+  - name: "Terminal 7"
+    command: echo 'Terminal 7'
+    openMode: tab-after
