@@ -6,6 +6,7 @@ tasks:
     command: http-server $PUBLIC_DIR
   - name: Echo
     command: echo "Testing"
+    openMode: split-right
   - name: Pipe-Multiline
     init: |
       echo "Hello"
